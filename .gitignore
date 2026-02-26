@@ -1,0 +1,18 @@
+# Build output
+aperture-bootstrap
+result
+
+# tsnet state (ephemeral, should never persist)
+tsnet-*/
+
+# Rendered config (regenerate with `just render`)
+config/rendered.json
+
+# Nix
+result-*
+.direnv/
+
+# Editor
+.vscode/
+*.swp
+*~
