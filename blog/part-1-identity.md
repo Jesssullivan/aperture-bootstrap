@@ -14,11 +14,6 @@ publish_to: "blog"
 
 ---
 
-## Setting the scene
-
-We run a small fleet of AI agents on Kubernetes.  Three agents (IronClaw, PicoClaw, HexStrike) make LLM calls to Anthropic's API.  We wanted to route those calls through [Tailscale Aperture](https://tailscale.com/aperture) — their AI gateway — so we'd get identity-aware metering, usage dashboards, and a single place to manage API keys.
-
-The setup looked straightforward:
 
 ```mermaid
 graph LR
