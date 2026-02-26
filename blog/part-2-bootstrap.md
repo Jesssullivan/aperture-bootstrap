@@ -1,3 +1,13 @@
+---
+title: "Bootstrapping Aperture Config with tsnet"
+date: "2026-02-26"
+description: "A throwaway Go program, an ephemeral node, and a five-minute escape hatch. Using tsnet to bootstrap Tailscale Aperture when all devices are tagged."
+tags: ["Tailscale", "DevOps"]
+category: "devops"
+feature_image: "images/aperture-security-model.png"
+publish_to: "blog"
+---
+
 # Part 2: Bootstrapping Aperture Config with tsnet
 
 *A throwaway Go program, an ephemeral node, and a five-minute escape hatch.*
