@@ -1,8 +1,7 @@
 # aperture-bootstrap
 
-Bootstrap [Tailscale Aperture](https://tailscale.com/aperture) config from tagged devices using [tsnet](https://pkg.go.dev/tailscale.com/tsnet).
+Demo Bootstrap [Tailscale Aperture](https://tailscale.com/aperture) config from tagged devices using [tsnet](https://pkg.go.dev/tailscale.com/tsnet).
 
-## The problem
 
 Aperture uses Tailscale WhoIs to identify who's connecting.  If your devices are **tagged** (as most K8s workloads are), Aperture doesn't recognize the literal string `"tagged-devices"` or tag names like `"tag:dev"` in its `temp_grants` config.  Only explicit user emails and the `"*"` wildcard match.
 
@@ -131,6 +130,3 @@ Aperture's WhoIs only recognizes **user login names** (emails) and the `"*"` wil
 - [Part 1: Aperture and the tagged-device identity gap](blog/part-1-identity.md)
 - [Part 2: Bootstrapping Aperture config with tsnet](blog/part-2-bootstrap.md)
 
-## License
-
-MIT
